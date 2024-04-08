@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.page1{
+    scroll-snap-align: center;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: url('./Assets/backgroungd.png'), linear-gradient(45deg,  #ffffff,  #fffcef);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    font-family: cursive;
+}
+
+.gif-bg img{
+    border-radius: 5000px;
+    object-fit: cover;
+}
+
+
+.page1-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.page1-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.page1-text h1{
+  color: #1a3361;
+  font-size: 52px;
+}
+
+.page1-text p{
+    width: 70%;
+  color: #1a3361;
+  font-size: 32px;
+}
+
+
+.div-link{
+    margin-top: 50px;
+}
+.go {
+    border-radius: 20px;
+    background-color: #648fdf;
+    color: white;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.515);
+    font-size: 37px;
+    padding: 25px 50px;
+    cursor: pointer;
+    font-weight: 900;
+    text-decoration: none;
+    color: rgb(13, 45, 120);
+}
+
+.go:link,
+.go:visited {
+    background-color: #648fdf;
+    color: white;
+    font-weight: 900;
+}
+
+.go:hover,
+.go:active {
+    color: white;
+    font-weight: 900;
+    background-color: #e6677c;
+}
+

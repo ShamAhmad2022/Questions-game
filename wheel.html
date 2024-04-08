@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Malak Project</title>
+    <audio src="./Assets/yay.wav" id="yay"></audio>
+    <audio src="./Assets/wheelst.mp3" id="wheelst"></audio>
+    <link rel="stylesheet" href="wheel.css" />
+  </head>
+
+  <body>
+    <div class="modal-container" id="modal-container">
+      <div class="modal">
+        <img src="./Assets/celeb.png" class="celeb-img" id="celeb-img"/>
+        <img src="./Assets/wrong.png" class="wrong-img" id="wrong-img"/>
+        <div class="modal-close-cont">
+          <button class="modal-close" id="close">×</button>
+        </div>
+        <div class="modal-inner-flex">
+          <div class="modal-heading">
+            <p class="color" id="color">color</p>
+          </div>
+          <div class="modal-question">
+            <p id="question">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque
+              maiores quas blanditiis?
+            </p>
+          </div>
+          <div class="modal-buttons">
+            <button class="modal-false" id="falsebtn">False</button>
+            <button class="modal-true" id="truebtn">True</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal-container-yay" id="modal-container-yay">
+      <div class="modal-yay">
+        <div class="modal-close-cont-yay">
+          <button class="modal-close-yay" id="close2">×</button>
+        </div>
+        <div class="modal-inner-flex-yay">
+          <div class="modal-heading-yay">
+            <p>Yayyyyy!</p>
+          </div>
+          <div class="modal-message">
+            <p id="message">
+              Congrdulations! you have answered all the questions 👏
+            </p>
+          </div>
+          <div class="trophy">
+            <img src="./Assets/trophy.png" alt="trophy" width="250"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page2">
+      <p class="welcome-message">Let's begin</p>
+      <div class="all">
+        <div class="all-child-1">
+          <a href="./index.html" class="back-bottom">🡨</a>
+        </div>
+        <div class="all-child-2">
+          <img src="./Assets/yellow.png" alt="Yellow" id="yellow"/>
+          <img src="./Assets/blue.png" alt="Blue" id="blue"/>
+          <img src="./Assets/pink.png" alt="Pink" id="pink"/>
+          <img src="./Assets/orange.png" alt="Orange" id="orange"/>
+          <img src="./Assets/purple.png" alt="Purple" id="purple"/>
+          <img src="./Assets/green.png" alt="Green" id="green"/>
+          <img src="./Assets/red.png" alt="Red" id="red"/>
+        </div>
+        <div class="all-child-3 text-and-wheel">
+          <div class="wheel-text">
+            <!-- <p>Spin the wheel to get a question</p> -->
+            <!-- <svg width="260" height="130">
+                <path id="curve" d="M 0 120 c 0 120, 130 0, 260 120"></path>
+                <text class="text" text-anchor="middle">
+                    <textPath class="text__path" href="#curved" startOffset="50%">
+                        curved text
+                    </textPath>
+
+                </text>
+            </svg> -->
+            <!-- <img src="./Assets/wheeltext.png" /> -->
+          </div>
+          <div class="mainbox" id="mainbox">
+            <div class="box" id="box">
+              <div class="box1">
+                <span class="font span1"><h5></h5></span>
+                <!-- 7 -->
+                <span class="font span2"><h5></h5></span>
+                <!-- 1 -->
+                <span class="font span3"><h5></h5></span>
+                <!-- 2 -->
+                <span class="font span4"><h5></h5></span>
+                <!-- 4 -->
+                <span class="font span5"><h5></h5></span>
+              </div>
+              <div class="box2">
+                <!-- 3 -->
+                <span class="font span1"><h5></h5></span>
+                <!-- 5 -->
+                <span class="font span2"><h5></h5></span>
+                <span class="font span3"><h5></h5></span>
+                <span class="font span4"><h5></h5></span>
+                <!-- 6 -->
+                <span class="font span5"><h5></h5></span>
+              </div>
+            </div>
+            <p class="inner-circle"></p>
+            <button class="spin" onclick="spin()" id="spinbtn">Spin</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
